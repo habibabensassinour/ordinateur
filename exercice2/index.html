@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf.8" >
+     <meta name="description" content="html for beginners">
+     <title>table part 1 (table,tr,td,caption)</title>
+     <title>table part 2 (thead,tbody,tfoot)</title>
+     <title>table part 3 (colspan,rowspan,colgroup,col)</title>
+     <link rel="stylesheet" href="style.css">
+     <script></script>
+     <style>
+     table caption {color: rgb(255, 0, 64);bold;}
+       table td {text-align: center;}
+       table ,td,th,{border:1px solid #676767}
+       table {widows: 500px;}
+       thead td {font-weight: bold;text-align: center;color:rgb(253, 253, 253);background-color: black;}
+       tfoot td {font-weight:bold;text-align: center;color:  rgba(236, 60, 95, 0.815);background:rgb(253, 253, 253) ;}
+       tbody td {text-align: center;padding: 5px;background:#EFEFEF;}
+       table ,td,th{border:1px solid #0c0c0c}
+         table {width: 500px;}
+         .test
+         {
+             color:white;
+             background: red;
+         } 
+
+         .test2
+
+         {
+             color: blue;
+         }   
+         .our-span
+        {
+            color:green;
+        }
+    </style>
+     </head>
+     <body>
+         <table border="1" width="400">
+             <caption>les porcentage des développeurs web contre les developpeurs mobile </caption>
+             <tr>
+                 <th>date </th>
+                 <th>société 1</th>
+                 <th>société 2</th>
+                 <th>société 3</th>
+                 <th>société 4</th>
+            </tr>
+            <tr>
+                <td>janvier</td>
+                 <td>50%</td>
+                 <td>65%</td>
+                 <td>80%</td>
+                 <td>85%</td>
+            </tr>
+            <tr>
+                    <td>fevrier</td>
+                     <td>60%</td>
+                     <td>70%</td>
+                     <td>80%</td>
+                    <td>90%</td>
+                </tr>
+                <tr>
+                        <td>mars</td>
+                          <td>60%</td>
+                          <td>70%</td>
+                     <td>90%</td>
+                           <td>95%</td>
+                     </tr>
+           </table>
+                     <table border="1" width="600">
+                               <caption>Lorem ipsum, dolor sit amet conseisici sit.</caption>
+                               <tr>
+                                <th>plan1</th>
+                                <th>plan2</th>
+                                <th>plan3</th>
+                                <th>plan4</th>
+                                </tr>
+                                <tr>
+                                <td>hard disk 30GB</td>
+                                <td>ard disk 40GB</td>
+                                <td>ard disk 50GB</td>
+                                <td>ard disk 60GB</td>
+                               </tr>
+                               <tr>
+                                    <td>
+                                       <img 
+                                       width="50"
+                                       src="https://www.developpez.net/forums/attachments/p513560d1572261230/javascript/general-javascript/langage-javascript-etre-renomme-oui-selon-kieran-potts-developpeur-javascript/2187946_3a00_3.jpg/" alt="">
+                                    </td>
+                                    <td>
+                                       <img
+                                       width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png">
+                                    </td> 
+                                    <td>
+                                        <img 
+                                        width="50" src="https://colorlib.com/wp/wp-content/uploads/sites/2/angular-logo.png" alt="">
+                                       
+                                    </td>
+                                    <td>
+                                        <img 
+                                        width="50"
+                                        src="https://blog.valoxy.org/wp-content/uploads/2013/07/gestion-des-stocks.png" alt="">
+                                    </td>
+                               </tr>
+                               <tr>
+                                   <td>3 ftp</td>
+                                   <td>4 ftp</td>
+                                   <td>5 ftp</td>
+                                   <td>6 ftp</td>
+                               </tr>
+                               <tr>
+                                   <td>50$</td>
+                                   <td>60$</td>
+                                   <td>70$</td>
+                                   <td>80$</td>
+                              </tr>
+                             </table>
+                            <table> <caption> programming computre</caption>
+                                    <tr>
+                                         <th colspan="2">programming</th>
+                                         <th colspan="3">web desing</th>
+                                         </tr>
+                                         <tr>
+                                               <td>php</td>
+                                               <td>my sqly</td>
+                                               <td>html</td>
+                                               <td>css</td>
+                                               <td>jquery</td>
+                                    </tr>
+                            </table>
+                            <table>
+                                   <caption>description table </caption>
+                                      <tr>
+                                       <td>name</td>
+                                       <td>Emails</td>
+                                      </tr>
+                                      <tr>
+                                         <td rowspan="4">morad</td>
+                                         <td>h@n.n</td>
+                                      </tr>
+                                    <tr>
+                                       <td>h2@n.n</td>
+                                    </tr>
+                                    <tr>
+                                       <td>h3@n.n</td>
+                                    </tr>
+                                    <tr>
+                                       <td>h4@n.n</td>
+                                    </tr>
+                                    <tr>
+                                      <td>mounir</td>
+                                      <td>A@n.n</td>
+                                    </tr>
+                                 </table>
+                                 <table>
+                                        <caption>describe the colgroup</caption>
+                                        <colgroup>
+                                         <col span="1"style="background:#EEE">
+                                         <col span="3"style="background:#DDD">
+                                         <col span="2"style="background:#AAA">
+                                       </colgroup>
+                                        <tr>
+                                            <td>programming</td>
+                                            <td>programming</td>
+                                            <td>design</td>
+                                            <td>design</td>
+                                            <td>design</td>
+                                            <td>design</td>
+                                        </tr>
+                                        <tr>
+                                            <td>php</td>
+                                            <td>my sqly</td>
+                                            <td>html</td>
+                                            <td>css</td>
+                                            <td>jquery</td>
+                                            <td>phptpgraph</td>
+                                        </tr>
+                                        <tr>
+                                           <td>php</td>
+                                           <td>my sqly</td>
+                                           <td>html</td>
+                                           <td>css</td>
+                                           <td>jquery</td>
+                                           <td>phptpgraph</td>
+                                       </tr>
+                                        <tr>
+                                           <td>php</td>
+                                           <td>my sqly</td>
+                                           <td>html</td>
+                                           <td>css</td>
+                                           <td>jquery</td>
+                                           <td>phptpgraph</td>
+                                       </tr>
+                                       <tr>
+                                           <td>php</td>
+                                           <td>my sqly</td>
+                                           <td>html</td>
+                                           <td>css</td>
+                                           <td>jquery</td>
+                                           <td>phptpgraph</td>
+                                       </tr>
+                                       <tr>
+                                           <td>php</td>
+                                           <td>my sqly</td>
+                                           <td>html</td>
+                                           <td>css</td>
+                                           <td>jquery</td>
+                                           <td>phptpgraph</td>
+                                       </tr> 
+                                 </table>
+                                 <div class="test">
+                                        this is div 1 <span class="our-span">SPAN</span>
+                                   </div>
+                                   <div class="test2">
+                                        this is div 2
+                                      </div>
+                                      <div class="test">
+                                              this is div 3
+                                            </div>
+                                       <p class="text2">this is P </p>      
+     </body>
+</html>

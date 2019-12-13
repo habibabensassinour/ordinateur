@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf.8" >
+     <meta name="description" content="html for beginners">
+     <title>table part 2 (thead,tbody,tfoot)</title>
+     <link rel="stylesheet" href="style.css">
+     <script></script>
+     <style>
+       table caption {color: rgb(255, 0, 64);bold;}
+       table td {text-align: center;}
+       table ,td,th,{border:1px solid #676767}
+       table {width: 500px;}
+       thead td {font-weight: bold;text-align: center;color:rgb(253, 253, 253);background-color: black;}
+       tfoot td {font-weight:bold;text-align: center;color:  rgba(236, 60, 95, 0.815);background:rgb(253, 253, 253) ;}
+       tbody td {text-align: center;padding: 5px;background:#EFEFEF;}
+     </style>
+     </head>
+     <body>
+         <table border="1" width="400">
+             <caption>this is our hosting plan </caption>
+             <thead>
+             <tr>
+                 <td>plan1</td>
+                 <td>plan2</td>
+                 <td>plan3</td>
+                 <td>plan4</td>
+            </tr>
+             </thead>
+             <tbody></tbody>
+            <tr>
+                    <td>hard disk 30GB</td>
+                    <td>ard disk 40GB</td>
+                    <td>ard disk 50GB</td>
+                    <td>ard disk 60GB</td>
+               </tr>
+               <tr>
+                    <td>5 databases</td>
+                    <td>6 databases</td>
+                    <td>7 databases</td>
+                    <td>8 databases</td>
+               </tr>
+               <tr>
+                    <td>3 ftp</td>
+                    <td>4 ftp</td>
+                    <td>5 ftp</td>
+                    <td>6 ftp</td>
+               </tr>
+               <tfoot>
+               <tr>
+                    <td>50$</td>
+                    <td>60$</td>
+                    <td>70$</td>
+                    <td>80$</td>
+               </tr>
+            </tfoot>        
+         </table>
+     </body>
+</html>
