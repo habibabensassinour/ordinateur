@@ -1,0 +1,12 @@
+div:before
+{
+    content: "iam content from css";
+    color: crimson;
+    font-weight: bold;
+}
+div:after
+{
+    content: "iam content from css";
+    color: rgb(77, 113, 212);
+    font-weight: bold;
+}

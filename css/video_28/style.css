@@ -1,0 +1,26 @@
+a[title="testing"]
+{
+    color: rgba(245, 96, 225, 0.849);
+}
+img[title="image 1"]
+{
+    border-radius: 10px;
+}
+img[title="image 2"]
+{
+    border-radius:10px;
+}
+img[title="image 3"]
+{
+    border-radius: 10px;
+}
+input
+{
+    display: block;
+    margin: 20px 0;
+    padding: 15px ;
+}
+input[type=text]
+{
+    color: red;
+}

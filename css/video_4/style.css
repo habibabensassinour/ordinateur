@@ -1,0 +1,8 @@
+div
+{
+    background-color: #f8f4f5ef;  
+    background-image: url(rose-jaune.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    border: 1px solid#2ecc71
+}

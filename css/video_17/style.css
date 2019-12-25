@@ -1,0 +1,14 @@
+.left
+{
+    width:300px;
+    background: rgb(233, 66, 0);
+    color: #fff;
+    padding:10px;
+    float: left;
+    margin: 10px;
+}
+.clear
+{
+    clear:left
+}
+.

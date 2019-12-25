@@ -1,0 +1,51 @@
+div
+{
+
+ width: 300px;
+ background: #DDD;
+ margin: 10PX 0;
+ padding: 10px;
+
+
+ color:#00F ;
+ letter-spacing: normal;
+ line-height:40px;
+ text-align: left;
+ direction: rtl;
+ text-indent: 20px;
+ white-space: normal;
+ word-spacing: 50px;
+ 
+}
+
+a
+{
+    text-decoration:overline
+}
+a:hover
+{
+    text-decoration:underline
+}
+div span
+{
+    color:#f00;
+    text-decoration:line-through;
+}
+span.new
+{
+    color:#00f
+}
+span.cap
+{
+    text-transform: capitalize;
+}
+span.upper
+{
+    text-transform: uppercase;
+}
+span.lower
+{
+    text-transform: lowercase;
+    word-spacing: 20px;
+    letter-spacing: 40px;
+}

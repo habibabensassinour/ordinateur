@@ -1,0 +1,9 @@
+div
+{
+    width:300px ;
+    padding: 40px;
+    background: rgb(0, 36, 41);
+    color: #fff;
+    border: 15px solid rgb(233, 220, 106);
+    outline: 20px solid tomato;
+}

@@ -1,0 +1,16 @@
+ul
+{
+    list-style-type:disc;
+    list-style-position:outside;
+    list-style-image:url('bu.png');
+    lis
+}
+ul li 
+{
+    border:1px solid#DDD
+}
+
+ul
+{
+    list-style:disc outside none;
+}

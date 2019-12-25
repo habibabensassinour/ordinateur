@@ -1,0 +1,56 @@
+/*start global*/
+* {
+    margin: 0px;
+    padding: 0px;
+ }
+
+body {
+    font-family: Arial, tahoma;
+ }
+
+/*end global*/
+/*strat header */
+.main {
+    background: rgb(94, 79, 79);
+    color: #DDD;
+    padding: 20px;
+    text-align: center;
+ }
+
+nav {
+    color: rgb(219, 136, 136);
+}
+
+nav ul {
+    padding: 20px;
+    text-align: center;
+ }
+
+nav ul li {
+    display: inline-block;
+ }
+
+nav ul li::after {
+    content:""
+ }
+
+nav ul li:last-child :after {
+    content:""
+ }
+
+
+ /*end article*/
+ /*strat article*/
+
+ article{
+  background-color:#ecd6d6;
+  border:1px solid rgb(206, 192, 192);
+  margin-bottom: 20px;
+ }
+ article header {
+    padding: 20px;
+    background-color:#ce7e7e;
+    border:1px solid rgb(206, 192, 192);
+    margin-bottom: 20px;
+}
+

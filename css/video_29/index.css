@@ -1,0 +1,16 @@
+@media print
+{
+    p
+    {
+        color: rgb(180, 17, 17);
+        font-size: 40px;
+    }
+}
+@media screen 
+{
+    p
+    {
+        color: rgb(16, 57, 238);
+        font-size: 20px;
+    }  
+}

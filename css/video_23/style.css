@@ -1,0 +1,10 @@
+div:before
+{
+    content: "hello iam here from css";
+    color: blue;
+    font-weight: bolder;
+}
+div
+{
+    color: #f00;
+}

@@ -1,0 +1,10 @@
+p
+
+{
+    font-family: "trebuchet ms" Helvetica, sans-serif;
+    font-style: italic;
+    font-weight:bold;
+    font:font-style/font-weight/font-size/line-height/font-family
+
+    font:italic bold 30px/40px "trebuchet ms", helvetica , sans-serif 
+}

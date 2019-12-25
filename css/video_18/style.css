@@ -1,0 +1,38 @@
+.one.two.three
+{
+    color: #fff;
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    float: left;
+}
+
+
+
+.one
+{
+    background: #f00;
+    color: #fff;
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    float: left;
+}
+.two
+{
+    background:#00F;
+    color: #fff;
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    float: left;
+}
+.three
+{
+    background:rgb(42, 212, 79);
+    color: #fff;
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    float: left;
+}

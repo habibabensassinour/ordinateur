@@ -1,0 +1,30 @@
+body
+{
+    direction:ltr;
+}
+div
+{
+
+ width: 300px;
+ background: #DDD;
+ margin: 10PX 0;
+ padding: 10px;
+
+
+ color:#00F ;
+ letter-spacing: normal;
+ line-height:40px;
+ text-align: right;
+}
+
+div.ar
+{
+   direction: rtl;
+    text-align: right;
+    text-decoration:overline;
+}
+
+div.ar:hover{
+    color: darkgoldenrod;
+    margin-left: 410px;
+}

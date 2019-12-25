@@ -1,0 +1,29 @@
+body
+{
+    height: 3000px;
+    background:rgb(206, 204, 198);
+}
+.parent
+{
+    width: 940px;
+    background:#FFF;
+    padding: 10px;
+    height: 600px;
+ 
+}
+.child
+{
+   widows: 600px;
+   height: 400px;
+   padding:10px ;
+   background:#efefef ;
+}
+.abs
+{
+   background: #f00;
+   color: #FFF;
+   padding: 10px;
+   position: absolute;
+   top: 10px;
+   right: 10px;
+}
